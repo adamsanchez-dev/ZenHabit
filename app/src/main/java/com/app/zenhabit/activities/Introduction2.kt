@@ -5,8 +5,9 @@ import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
-import com.blogspot.atifsoftwares.animatoolib.Animatoo
 import com.app.zenhabit.R
+import com.blogspot.atifsoftwares.animatoolib.Animatoo
+
 
 class Introduction2 : AppCompatActivity() {
 

@@ -5,6 +5,7 @@ import android.os.Bundle
 import com.app.zenhabit.R
 import com.app.zenhabit.databinding.ActivityDataBaseTestingBinding
 
+
 class DataBaseTesting : AppCompatActivity() {
     private lateinit var bin: ActivityDataBaseTestingBinding
     override fun onCreate(savedInstanceState: Bundle?) {

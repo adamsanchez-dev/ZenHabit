@@ -1,4 +1,4 @@
-package com.example.zenhabit.classes
+package com.app.zenhabit.classes
 /**
  * La clase JardiCard tindrá les dades necesaries per a mostrar les diferents targetes del RecyclerView ubicat al Fragment de JardiFragment.
  * Ens donará informació del Jardí que te l'usuari,

@@ -1,4 +1,4 @@
-package com.example.zenhabit.classes
+package com.app.zenhabit.classes
 /**
  * La clase TaskCard representa les dades necessàries per mostrar les diferents targetes de tasques al RecyclerView situat al fragment TaskAndHabits.
  * Dona informació de les tasques programades per l'usuari.

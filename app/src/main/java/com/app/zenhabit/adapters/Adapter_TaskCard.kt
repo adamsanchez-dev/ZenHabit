@@ -12,10 +12,11 @@ import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.NavHostFragment.Companion.findNavController
 import androidx.recyclerview.widget.RecyclerView
+import com.app.zenhabit.R
 import com.app.zenhabit.classes.TaskCard
 import com.app.zenhabit.fragments.TasksAndHabits_FragmentDirections
 import com.app.zenhabit.utilities.DataBaseUtils
-import com.app.zenhabit.R
+import com.app.zenhabit.fragments.TasksAndHabits_FragmentDirections.actionTasksAndHabitsFragmentToEditTaskFragment as actionTasksAndHabitsFragmentToEditTaskFragment1
 
 class Adapter_TaskCard(val Frag :Fragment,private val dataSet: ArrayList<TaskCard>) :
     RecyclerView.Adapter<Adapter_TaskCard.TasksViewHolder>() {
@@ -43,7 +44,7 @@ class Adapter_TaskCard(val Frag :Fragment,private val dataSet: ArrayList<TaskCar
         viewHolder.taskTimeTextView.text = dataSet[position].tascaTemps
         viewHolder.btn_EditarTasca.setOnClickListener{
             dataSet[position].edicio = true
-            val sendData = TasksAndHabits_FragmentDirections.actionTasksAndHabitsFragmentToEditTaskFragment(dataSet[position])
+            val sendData = actionTasksAndHabitsFragmentToEditTaskFragment1(dataSet[position])
             findNavController(Frag).navigate(sendData)
         }
         val container = viewHolder.itemView as ViewGroup
