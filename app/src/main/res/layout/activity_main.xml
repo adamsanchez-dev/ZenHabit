@@ -50,7 +50,7 @@
         android:id="@+id/buttonResetPassword"
         style="@style/Widget.MaterialComponents.Button.TextButton"
         android:layout_width="252dp"
-        android:layout_height="41dp"
+        android:layout_height="48dp"
         android:text="@string/has_oblidat_la_contrase_a"
         android:textAllCaps="false"
         android:textColor="@color/hints"
