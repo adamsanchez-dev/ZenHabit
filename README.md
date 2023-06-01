@@ -21,5 +21,5 @@ Here're some of the project's best features:
 *   MVC
 
   
-<h2>Documentation</h2>
+
 [![View On PDF](https://img.shields.io/badge/Download%20AS%20pdf-EF3939?style=for-the-badge&logo=adobeacrobatreader&logoColor=white&color=black&labelColor=ec1c24)](https://drive.google.com/file/d/1MYvICA3n5aYt3uIxse9YAtSVo4a6pNH6/view?usp=drive_link)
